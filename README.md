@@ -11,4 +11,5 @@ Fusing layers...
 >>> 
 >>> 
 >>> from torchsummaryX import summary
->>> arch = summary(model, torch.rand((1, 3, 416, 416)).cuda()
+>>> 
+>>> arch = summary(model, torch.rand((1, 3, 416, 416)).cuda())
